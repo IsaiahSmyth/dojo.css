@@ -1,0 +1,40 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  ul {
+    list-style: none;
+  }
+  .btn {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    color: white;
+    background-color: darkgray;
+  }
+  .btn > div button {
+    background-color: black;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  li {
+    margin-left: 20px;
+  }
+  a {
+    color: blue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
